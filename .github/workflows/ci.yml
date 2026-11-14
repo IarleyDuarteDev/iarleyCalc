@@ -1,6 +1,8 @@
 name: Calculadora
 on:
     push:
+permissions:
+    contents: read
 jobs:
     testes:
         runs-on: ubuntu-latest
